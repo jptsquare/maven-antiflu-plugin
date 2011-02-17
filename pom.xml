@@ -27,6 +27,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+	<repository>
+		<id>repo</id>
+		<url>https://github.com/jptsquare/maven-antiflu-plugin/releases</url>
+	</repository>
+	<!--snapshotRepository>
+		<id>snapshot-repo</id>
+		<url>https://github.com/jptsquare/maven-antiflu-plugin/releases</url>
+	</snapshotRepository-->
+</distributionManagement>
 
   <build>
     <plugins>
